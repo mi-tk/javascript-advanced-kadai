@@ -102,7 +102,7 @@ const timer = () => {
 
     if(time <= 0) {
   clearInterval(id);
-  count.textContent = 'タイムアップ！';
+  wrap.textContent = 'タイムアップ！';
 
   setTimeout(() => {
     gameOver(id);
